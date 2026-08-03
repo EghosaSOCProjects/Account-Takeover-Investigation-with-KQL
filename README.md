@@ -29,3 +29,12 @@ Pulled every sign-in on the account for the incident day and read the story in t
 
 
 Three failed attempts at 03:09 and 03:10 from 102.89.44.17 (Lagos), then a success at 03:12, followed by Outlook Web (03:14) and Azure Portal (03:26) — then a genuine London sign-in at 08:41. One account, two countries, five and a half hours apart, with failures immediately ahead of the successful login. That combination rules out a simple UI/timestamp glitch straight away.
+
+2. Baseline — rule out travel before calling it a breach
+
+Location alone never proves compromise, so I pulled the account's full 8-day sign-in history and compared it against a second account that also showed a new country that week.
+
+<img width="1919" height="909" alt="Daniel_account_login af_02" src="https://github.com/user-attachments/assets/1b1d6301-8695-4013-a8a9-2fadbe8d195a" />
+
+Daniel's account: 38 sign-ins from London across the whole window, then a single burst of Lagos activity confined to the early hours of the last night — no prior history there at all.
+
