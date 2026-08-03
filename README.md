@@ -3,7 +3,7 @@
 
 ### Project Overview
 
-This project demonstrates was to get an understanding of analyzing a investigation of a suspected Account Takeover (ATO) using Kusto Query Language (KQL).
+This project demonstration is to get an understanding of analyzing and investigation of a suspected Account Takeover (ATO) using Kusto Query Language (KQL).
 
 The investigation follows a real SOC workflow from alert triage through investigation, evidence gathering, incident analysis, attacker timeline creation, MITRE ATT&CK mapping, containment, eradication, and lessons learned.
 
@@ -37,4 +37,8 @@ Location alone never proves compromise, so I pulled the account's full 8-day sig
 <img width="1919" height="909" alt="Daniel_account_login af_02" src="https://github.com/user-attachments/assets/1b1d6301-8695-4013-a8a9-2fadbe8d195a" />
 
 Daniel's account: 38 sign-ins from London across the whole window, then a single burst of Lagos activity confined to the early hours of the last night — no prior history there at all.
+
+<img width="1919" height="909" alt="Omar_account_login af_02" src="https://github.com/user-attachments/assets/ca6859e6-64b8-4c88-85df-3bf4be8150c9" />
+
+Compare that against omar.farah@cloudora.io: 12 Dubai sign-ins spread across three days, all daytime, all first-try successes — a normal travel pattern. Same "new country" signal, opposite verdict. This side-by-side comparison — anomaly vs. explained anomaly — is the actual judgment call in this investigation, not the geolocation itself.
 
