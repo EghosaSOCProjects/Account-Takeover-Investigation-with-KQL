@@ -77,33 +77,9 @@ Never assume a single victim. I pulled every account the attacker's IPs actually
 
 The attacker successfully accessed two accounts, not one: the CEO, and a second employee, priya.nair@cloudora.io, compromised 35 minutes later from a different Lagos IP — and, per the follow-up investigation, straight into a SharePoint session rather than the mailbox. Repeating the same three-move method (timeline → baseline → persistence check) on Priya's account confirmed the same verdict: genuine compromise, no attacker persistence found in the available audit data (which is documented as an evidence gap, not proof of a clean account — she still got the full containment treatment).
 
-# Containment
-
-✅ Disabled account
-
-✅ Revoked refresh tokens
-
-✅ Forced password reset
-
-✅ Removed MFA registration
-
-✅ Removed mailbox rules
-
-✅ Blocked malicious IP
-
-✅ Initiated user awareness training
-
-# MITRE ATT&CK Mapping
-
-| Technique         | ID        |
-| ----------------- | --------- |
-| Password Spraying | T1110.003 |
-| Initial Access    | T1078     |
-| Persistence       | T1098.005 |
-| Defense Evasion   | T1564.008 |
-
 # Incident Report
-# CEO Account Takeover via Password Spray & Mailbox Persistence
+
+CEO Account Takeover via Password Spray & Mailbox Persistence
 
 **Cloudora Security Operations — Incident Report**
 `CONFIDENTIAL — Internal and client distribution only`
