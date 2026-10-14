@@ -21,7 +21,7 @@ Logs were investigated in Azure Data Explorer rather than Sentinel directly — 
 
 #### Investigation walkthrough
 
-###1. Triage — is the Lagos sign-in real?
+### 1. Triage — is the Lagos sign-in real?
 
 Pulled every sign-in on the account for the incident day and read the story in the timestamps.
 
